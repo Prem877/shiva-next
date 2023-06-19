@@ -1,8 +1,8 @@
-import React from 'react'
+import React from 'react';
 
-const Category = () => {
+const Category = ({params}) => {
     return (
-        <h1>Category</h1>
+        <h1>{params.category}</h1>
     )
 }
 
